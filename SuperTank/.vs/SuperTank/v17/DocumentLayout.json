@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|c:\\users\\pexa\\source\\repos\\supertank\\supertank\\objects\\wallmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\wallmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\objects\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\general\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:general\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\objects\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WallManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\WallManagement.cs",
+              "RelativeDocumentMoniker": "Objects\\WallManagement.cs",
+              "ToolTip": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\WallManagement.cs",
+              "RelativeToolTip": "Objects\\WallManagement.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:28:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\General\\Common.cs",
+              "RelativeDocumentMoniker": "General\\Common.cs",
+              "ToolTip": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\General\\Common.cs",
+              "RelativeToolTip": "General\\Common.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwEUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:17:57.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmGame.cs",
+              "DocumentMoniker": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\frmGame.cs",
+              "ToolTip": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs",
+              "RelativeToolTip": "WindowsForms\\frmGame.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwBwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:05:21.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseObject.cs",
+              "DocumentMoniker": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\BaseObject.cs",
+              "RelativeDocumentMoniker": "Objects\\BaseObject.cs",
+              "ToolTip": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\BaseObject.cs",
+              "RelativeToolTip": "Objects\\BaseObject.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAArwFwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:27:53.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\Wall.cs",
+              "RelativeDocumentMoniker": "Objects\\Wall.cs",
+              "ToolTip": "C:\\Users\\Pexa\\source\\repos\\SuperTank\\SuperTank\\Objects\\Wall.cs",
+              "RelativeToolTip": "Objects\\Wall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:27:44.819Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
