@@ -13,6 +13,9 @@ namespace SuperTank.General
     class Common
     {
         #region Hằng số các thông số cố định
+        //chiều rộng, cao, số object theo chiều rộng (45), số object hteo chiều cao (40)
+        //max level(10)
+        //step - bước di chuyển.
         public const int SCREEN_WIDTH = 1100;
         public const int SCREEN_HEIGHT = 900;
         public const int NUMBER_OBJECT_WIDTH = 45;
@@ -23,15 +26,17 @@ namespace SuperTank.General
         #endregion
         public static string path;
 
-        // load hình ảnh
+        // load hình ảnh - tạo 1 object kiểu bitmap từ ảnh trong file debug.
         public static Bitmap LoadImage(string fileName)
         {
             return new Bitmap(Common.path + fileName);
         }
 
-        // vẽ lên bitmap
+        // vẽ lên bitmap, bmpback là background, front là hình ảnh dc vẽ lên background
+        //các xywhFrame là rộng cao, tọa độ frame
         public static void PaintObject(Bitmap bmpBack, Bitmap front, int x, int y, int xFrame, int yFrame, int wFrame, int hFrame)
         {
+            //lớp graphics để vẽ lên bitmap nền
             Graphics g = Graphics.FromImage(bmpBack);
             g.SmoothingMode = SmoothingMode.AntiAlias;
             g.DrawImage(front, x, y, new Rectangle(xFrame, yFrame, wFrame, hFrame), GraphicsUnit.Pixel);
@@ -40,7 +45,7 @@ namespace SuperTank.General
             g.Dispose();
         }
 
-        // clear bitmap
+        // clear bitmap background bằng cách tô cho nó màu đen (vì map màu đen)
         public static void PaintClear(Bitmap bmpBack)
         {
             Graphics g = Graphics.FromImage(bmpBack);
@@ -48,7 +53,7 @@ namespace SuperTank.General
             g.Dispose();
         }
 
-        // đọc map vào ma trận
+        // đọc map vào ma trận bằng đọc file NOTEPAD MAP
         public static int[,] ReadMap(string path, int numberObjectHeight, int numberObjectWidth)
         {
             int[,] arrayObject;

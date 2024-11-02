@@ -23,6 +23,7 @@ namespace SuperTank.Objects
         // tạo một danh sách tường
         public void CreatWall(int[,] map, int level)
         {
+            //dựa vào tham số level của game để load texture tường phù hợp
             Wall wall = null;
             for (int i = 0; i < map.GetLength(0); i++)
             {
@@ -33,8 +34,11 @@ namespace SuperTank.Objects
                     if (map[i, j] != 0)
                     {
                         wall = new Wall();
+                        //Xác định tọa độ X và Y của tường trên bản đồ bằng cách nhân với một hằng số Common.STEP.
                         wall.RectX = j * Common.STEP;
                         wall.RectY = i * Common.STEP;
+
+                        //Đặt chiều rộng và chiều cao của tường bằng Common.STEP.
                         wall.RectWidth = Common.STEP;
                         wall.RectHeight = Common.STEP;
                         wall.WallNumber = map[i, j];
@@ -56,6 +60,7 @@ namespace SuperTank.Objects
                             case 5:
                                 break;
                         }
+                        //Thêm đối tượng wall đã tạo vào danh sách walls.
                         walls.Add(wall);
                     }
                 }
@@ -82,7 +87,7 @@ namespace SuperTank.Objects
         {
             foreach (var wall in walls)
             {
-                // nếu số của tường khác 6 là khác castle mới vẽ
+                // nếu số của tường khác 6 là khác castle mới vẽ (castle là image wall.6)
                 if (wall.WallNumber != 6)
                     wall.Show(background);
             }

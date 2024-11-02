@@ -54,3 +54,14 @@ C:\Users\Pexa\Source\Repos\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.Genera
 C:\Users\Pexa\Source\Repos\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.CoreCompileInputs.cache
 C:\Users\Pexa\Source\Repos\SuperTank\SuperTank\obj\Debug\SuperTank.exe
 C:\Users\Pexa\Source\Repos\SuperTank\SuperTank\obj\Debug\SuperTank.pdb
+D:\SuperTank\SuperTank\bin\Debug\SuperTank.exe.config
+D:\SuperTank\SuperTank\bin\Debug\SuperTank.exe
+D:\SuperTank\SuperTank\bin\Debug\SuperTank.pdb
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.AssemblyReference.cache
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.frmGame.resources
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.Properties.Resources.resources
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.WindowsForms.frmMenu.resources
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.GenerateResource.cache
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.CoreCompileInputs.cache
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.exe
+D:\SuperTank\SuperTank\obj\Debug\SuperTank.pdb

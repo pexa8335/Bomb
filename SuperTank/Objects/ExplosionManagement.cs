@@ -23,8 +23,12 @@ namespace SuperTank.Objects
         {
             Explosion explosion;
             explosion = new Explosion();
+            //Tạo vụ nổ và phân loại vụ nổ nhỏ hay lớn
+
+
             switch (explosionSize)
             {
+                //Độ rộng và dài vụ nổ, thử tăng giảm lên 400 500 là hiểu
                 case ExplosionSize.eSmallExplosion:
                     explosion.RectWidth = 40;
                     explosion.RectHeight = 40;
@@ -36,9 +40,14 @@ namespace SuperTank.Objects
                     explosion.LoadImage(Common.path + @"\Images\explosion1.png");
                     break;
             }
+
+            //Tính toán nơi vụ nổ diễn ra
             explosion.RectX = (rectBullet.X + rectBullet.Width / 2) -  explosion.RectWidth/2;
             explosion.RectY = (rectBullet.Y + rectBullet.Height / 2) - explosion.RectHeight / 2; 
             explosion.IsExplosion = true;
+            
+
+            //Cho vào danh sách vụ nổ, đặt lại null
             this.explosions.Add(explosion);
             explosion = null;
         }
@@ -46,6 +55,7 @@ namespace SuperTank.Objects
         // hiển thị toàn bộ danh sách vụ nổ
         public void ShowAllExplosion(Bitmap background)
         {
+            //nếu vụ nổ có trong danh sách, hiển thị lên màn hình
             for (int i = 0; i < this.Explosions.Count; i++)
             {
                 // nếu còn cho phép nổ
