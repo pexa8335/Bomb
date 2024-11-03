@@ -42,14 +42,10 @@ namespace SuperTank.WindowsForms
             this.pnLevel = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.btnLevelMenu = new System.Windows.Forms.Button();
-            this.btnLevel8 = new System.Windows.Forms.Button();
-            this.btnLevel7 = new System.Windows.Forms.Button();
-            this.btnLevel6 = new System.Windows.Forms.Button();
-            this.btnLevel5 = new System.Windows.Forms.Button();
+            
             this.btnLevel4 = new System.Windows.Forms.Button();
             this.btnLevel3 = new System.Windows.Forms.Button();
-            this.btnLevel10 = new System.Windows.Forms.Button();
-            this.btnLevel9 = new System.Windows.Forms.Button();
+
             this.btnLevel2 = new System.Windows.Forms.Button();
             this.btnLevel1 = new System.Windows.Forms.Button();
             this.pnAboutUs = new System.Windows.Forms.Panel();
@@ -221,14 +217,9 @@ namespace SuperTank.WindowsForms
             // 
             this.pnLevel.Controls.Add(this.pictureBox7);
             this.pnLevel.Controls.Add(this.btnLevelMenu);
-            this.pnLevel.Controls.Add(this.btnLevel8);
-            this.pnLevel.Controls.Add(this.btnLevel7);
-            this.pnLevel.Controls.Add(this.btnLevel6);
-            this.pnLevel.Controls.Add(this.btnLevel5);
+            
             this.pnLevel.Controls.Add(this.btnLevel4);
             this.pnLevel.Controls.Add(this.btnLevel3);
-            this.pnLevel.Controls.Add(this.btnLevel10);
-            this.pnLevel.Controls.Add(this.btnLevel9);
             this.pnLevel.Controls.Add(this.btnLevel2);
             this.pnLevel.Controls.Add(this.btnLevel1);
             this.pnLevel.Location = new System.Drawing.Point(500, 40);
@@ -264,91 +255,10 @@ namespace SuperTank.WindowsForms
             this.btnLevelMenu.Text = "Menu";
             this.btnLevelMenu.UseVisualStyleBackColor = false;
             this.btnLevelMenu.Click += new System.EventHandler(this.btnMenu_Click);
-            // 
-            // btnLevel8
-            // 
-            this.btnLevel8.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel8.Enabled = false;
-            this.btnLevel8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel8.Location = new System.Drawing.Point(261, 352);
-            this.btnLevel8.Name = "btnLevel8";
-            this.btnLevel8.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel8.TabIndex = 21;
-            this.btnLevel8.TabStop = false;
-            this.btnLevel8.Tag = "8";
-            this.btnLevel8.Text = "Level 8";
-            this.btnLevel8.UseVisualStyleBackColor = false;
-            this.btnLevel8.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
-            // btnLevel7
-            // 
-            this.btnLevel7.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel7.Enabled = false;
-            this.btnLevel7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel7.Location = new System.Drawing.Point(74, 351);
-            this.btnLevel7.Name = "btnLevel7";
-            this.btnLevel7.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel7.TabIndex = 20;
-            this.btnLevel7.TabStop = false;
-            this.btnLevel7.Tag = "7";
-            this.btnLevel7.Text = "Level 7";
-            this.btnLevel7.UseVisualStyleBackColor = false;
-            this.btnLevel7.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
-            // btnLevel6
-            // 
-            this.btnLevel6.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel6.Enabled = false;
-            this.btnLevel6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel6.Location = new System.Drawing.Point(261, 276);
-            this.btnLevel6.Name = "btnLevel6";
-            this.btnLevel6.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel6.TabIndex = 19;
-            this.btnLevel6.TabStop = false;
-            this.btnLevel6.Tag = "6";
-            this.btnLevel6.Text = "Level 6";
-            this.btnLevel6.UseVisualStyleBackColor = false;
-            this.btnLevel6.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
-            // btnLevel5
-            // 
-            this.btnLevel5.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel5.Enabled = false;
-            this.btnLevel5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel5.Location = new System.Drawing.Point(74, 275);
-            this.btnLevel5.Name = "btnLevel5";
-            this.btnLevel5.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel5.TabIndex = 18;
-            this.btnLevel5.TabStop = false;
-            this.btnLevel5.Tag = "5";
-            this.btnLevel5.Text = "Level 5";
-            this.btnLevel5.UseVisualStyleBackColor = false;
-            this.btnLevel5.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
+           
+           
+           
+          
             // btnLevel4
             // 
             this.btnLevel4.BackColor = System.Drawing.Color.Transparent;
@@ -390,48 +300,7 @@ namespace SuperTank.WindowsForms
             this.btnLevel3.Text = "Level 3";
             this.btnLevel3.UseVisualStyleBackColor = false;
             this.btnLevel3.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
-            // btnLevel10
-            // 
-            this.btnLevel10.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel10.Enabled = false;
-            this.btnLevel10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel10.Location = new System.Drawing.Point(261, 428);
-            this.btnLevel10.Name = "btnLevel10";
-            this.btnLevel10.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel10.TabIndex = 15;
-            this.btnLevel10.TabStop = false;
-            this.btnLevel10.Tag = "10";
-            this.btnLevel10.Text = "Level 10";
-            this.btnLevel10.UseVisualStyleBackColor = false;
-            this.btnLevel10.Click += new System.EventHandler(this.btnLevel_Click);
-            // 
-            // btnLevel9
-            // 
-            this.btnLevel9.BackColor = System.Drawing.Color.Transparent;
-            this.btnLevel9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLevel9.Enabled = false;
-            this.btnLevel9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLevel9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLevel9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLevel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLevel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLevel9.Location = new System.Drawing.Point(74, 427);
-            this.btnLevel9.Name = "btnLevel9";
-            this.btnLevel9.Size = new System.Drawing.Size(165, 53);
-            this.btnLevel9.TabIndex = 14;
-            this.btnLevel9.TabStop = false;
-            this.btnLevel9.Tag = "9";
-            this.btnLevel9.Text = "Level 9";
-            this.btnLevel9.UseVisualStyleBackColor = false;
-            this.btnLevel9.Click += new System.EventHandler(this.btnLevel_Click);
+            
             // 
             // btnLevel2
             // 
@@ -643,14 +512,8 @@ namespace SuperTank.WindowsForms
         private System.Windows.Forms.Panel pnMenu;
         private System.Windows.Forms.Panel pnLevel;
         private System.Windows.Forms.Button btnLevelMenu;
-        private System.Windows.Forms.Button btnLevel8;
-        private System.Windows.Forms.Button btnLevel7;
-        private System.Windows.Forms.Button btnLevel6;
-        private System.Windows.Forms.Button btnLevel5;
         private System.Windows.Forms.Button btnLevel4;
         private System.Windows.Forms.Button btnLevel3;
-        private System.Windows.Forms.Button btnLevel10;
-        private System.Windows.Forms.Button btnLevel9;
         private System.Windows.Forms.Button btnLevel2;
         private System.Windows.Forms.Button btnLevel1;
         private System.Windows.Forms.Panel pnAboutUs;

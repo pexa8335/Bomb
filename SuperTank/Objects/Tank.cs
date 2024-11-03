@@ -181,6 +181,7 @@ Khi frx_tank giảm về -1, giá trị sẽ được đặt lại thành MAX_NU
                         // đạn tam giác có kích thước 8x8
                         bullet.RectWidth =8;
                         bullet.RectHeight = 8;
+
                         // năng lượng của đạn tam giác mặc định là 10
                         bullet.Power = 10;
                         break;

@@ -65,6 +65,7 @@
             this.picTank01 = new System.Windows.Forms.PictureBox();
             this.picTank00 = new System.Windows.Forms.PictureBox();
             this.picHeart = new System.Windows.Forms.PictureBox();
+            this.picItem = new System.Windows.Forms.PictureBox();
             this.pnMainGame = new System.Windows.Forms.Panel();
             this.lblCastleBlood = new System.Windows.Forms.Label();
             this.pnRedBackground = new System.Windows.Forms.Panel();

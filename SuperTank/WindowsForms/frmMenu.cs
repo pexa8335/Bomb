@@ -21,13 +21,15 @@ namespace SuperTank.WindowsForms
         {
             // load đường dẫn dùng chung
             Common.path = Application.StartupPath + @"\Content";
+
             // thiết lập âm thanh
             Sound.InitSound(Common.path);
+
             // thiết kế control
             InitializeComponent();
+
             // add các button level vào mảng
-            levelButtons = new Button[] { btnLevel1, btnLevel2, btnLevel3, btnLevel4, btnLevel5,
-                btnLevel6, btnLevel7, btnLevel8, btnLevel9, btnLevel10 };
+            levelButtons = new Button[] { btnLevel1, btnLevel2, btnLevel3, btnLevel4};
           
         }
 
@@ -36,6 +38,7 @@ namespace SuperTank.WindowsForms
         {
             // đọc level người chơi từ file
             PlayerInfor.ReadPlayerLevel(@"\PlayerLevel.txt");
+
             // hiển thị các nút level được mở 
             this.ShowOpenedLevels( PlayerInfor.level);
         }
