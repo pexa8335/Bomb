@@ -17,6 +17,8 @@ namespace SuperTank
         private static SoundPlayer hitByBulletsSound;
         private static SoundPlayer eatItemsSound;
         private static SoundPlayer lowAmmoEnergySound;
+
+        //Đổi nhạc ở đây, kiếm sound, vào debug -> sounds -> paste link vào, đặt tên, đổi đường dẫn
         public static void InitSound(String path)
         {
             Sound.startSound = new SoundPlayer(path + @"\Sounds\amThanhGameStart.wav");

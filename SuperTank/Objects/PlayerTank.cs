@@ -12,18 +12,25 @@ namespace SuperTank.Objects
 {
     class PlayerTank : Tank
     {
+        //kiểm tra có nhặt item shield không thì hiển thị bitmap cho vật thể shield
         private bool isShield;
         private Bitmap bmpShield;
 
 
         public PlayerTank()
         {
+            //khởi tạo tốc độ di chuyển, tốc độ đạn, energy
+            //set vị trí cố định khi chết là hồi sinh tại tọa độ đó
             this.moveSpeed = 10;
             this.tankBulletSpeed = 20;
             this.energy = 100;
             this.SetLocation();
             this.DirectionTank = Direction.eUp;
+
+            //skin mặc định là vàng - ăn 1 shot là cút
             this.SkinTank = Skin.eYellow;
+
+            //tải ảnh skin và shield nếu có
             bmpEffect = new Bitmap(Common.path + @"\Images\effect1.png");
             bmpShield = new Bitmap(Common.path + @"\Images\shield.png");
         }

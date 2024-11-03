@@ -72,6 +72,8 @@ namespace SuperTank.General
         }
 
         // kiểm tra va chạm giữa hai hình chữ nhật
+        /*Nó kiểm tra từng góc của rect1 xem có nằm trong rect2 và ngược lại.
+Nếu có bất kỳ góc nào nằm trong hình chữ nhật kia, hàm sẽ trả về true, nghĩa là có va chạm.*/
         public static bool IsCollision(Rectangle rect1, Rectangle rect2)
         {
             // góc dưới phải

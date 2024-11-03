@@ -51,6 +51,8 @@ namespace SuperTank
             isWallCollision = this.IsWallCollision(walls, this.directionTank);
             isPlayerTankCollision = this.IsPlayerTankCollision(playerTank);
             isAlliedTanksCollision = this.IsAlliedTanksCollision(alliedTanks);
+
+
             // nếu va chạm tường, player hoặc xe tăng đồng minh của địch thì xử lí đổi hướng
             if (isWallCollision || isAlliedTanksCollision || isPlayerTankCollision)
             {
@@ -104,6 +106,7 @@ namespace SuperTank
             isWallCollision = this.IsWallCollision(walls, this.directionTank);
             isPlayerTankCollision = this.IsPlayerTankCollision(playerTank);
             isAlliedTanksCollision = this.IsAlliedTanksCollision(alliedTanks);
+
             // nếu va chạm tường hoặc xe tăng đồng minh của địch thì xử lí đổi hướng
             if ((isWallCollision || isAlliedTanksCollision || isPlayerTankCollision) && isPriority == false)
             {

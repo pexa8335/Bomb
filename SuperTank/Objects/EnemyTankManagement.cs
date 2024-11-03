@@ -52,12 +52,21 @@ namespace SuperTank.Objects
                 {
                     string[] token = s.Split('#');
                     enemyTankParameter = new EnemyTankParameter();
+                    //loại xe
                     enemyTankParameter.Type = int.Parse(token[0]);
+
+                    //mức năng lượng
                     enemyTankParameter.Energy = int.Parse(token[1]);
+
+                    //tốc độ
                     enemyTankParameter.TankMoveSpeed = int.Parse(token[2]);
+
+                    //tọa độ x, y, tốc độ đạn
                     enemyTankParameter.TankBulletSpeed = int.Parse(token[3]);
                     enemyTankParameter.XEnemyTank = int.Parse(token[4]);
                     enemyTankParameter.YEnemyTank = int.Parse(token[5]);
+
+                    // số tank
                     enemyTankParameter.maxNumberEnemyTank = int.Parse(token[6]);
                     this.EnemyTankParameters.Add(enemyTankParameter);
                 }

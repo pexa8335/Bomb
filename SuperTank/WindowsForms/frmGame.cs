@@ -27,6 +27,7 @@ namespace SuperTank
         #endregion các thuộc tính chung
 
         #region Đối tượng
+        //map của tường, vụ nổ, tank, playertank
         private WallManagement wallManager;
         private ExplosionManagement explosionManager;
         private PlayerTank playerTank;
@@ -56,31 +57,42 @@ namespace SuperTank
             this.level = level;
             InitializeComponent();
         }
+
         private void frmGame_Load(object sender, EventArgs e)
         {
             // load ảnh heart cho hp playertank
             picHeart.Image = Image.FromFile(Common.path + @"\Images\heart.png");
+
             // add picture box vào mảng hiển thị số lượng địch
             picNumberEnemyTanks = new PictureBox[]{picTank00, picTank01, picTank02,
             picTank03, picTank04, picTank05, picTank06, picTank07, picTank08, picTank09, picTank10,
             picTank11, picTank12, picTank13, picTank14, picTank15, picTank16, picTank17, picTank18, picTank19};
+
             // khởi tạo graphics
             graphics = pnMainGame.CreateGraphics();
+
             // khỏi tạo background
             background = new Bitmap(Common.SCREEN_WIDTH, Common.SCREEN_HEIGHT);
+
             // khởi tạo bitmap castle
             bmpCastle = new Bitmap(Common.STEP * 3, Common.STEP * 3);
+
             // khởi tạo map
             map = new int[Common.NUMBER_OBJECT_HEIGHT, Common.NUMBER_OBJECT_WIDTH];
+
             // tạo đối tượng quản lí tường
             wallManager = new WallManagement();
+
             // tạo đối tượng quản lí vụ nổ
             explosionManager = new ExplosionManagement();
+
             // tạo đối tượng xe tăng player
             playerTank = new PlayerTank();
             playerTank.LoadImage(Common.path + @"\Images\tank0.png");
+
             // khởi tạo danh sách địch
             enemyTankManager = new EnemyTankManagement();
+
             // khởi tạo vật phẩm
             item = new Item();
 
@@ -93,53 +105,74 @@ namespace SuperTank
         {
             // phát âm thanh
             Sound.PlayStartSound();
+
             // load map
             Array.Copy(Common.ReadMap(String.Format("{0}{1:00}.txt", Common.path + @"\Maps\Map", this.level),
                 Common.NUMBER_OBJECT_HEIGHT, Common.NUMBER_OBJECT_WIDTH),
             this.map, Common.NUMBER_OBJECT_HEIGHT * Common.NUMBER_OBJECT_WIDTH);
+
             // giải phóng danh sách tường cũ
             wallManager.WallsClear();
+
             // giải phóng danh sách địch
             enemyTankManager.EnemyTanksClear();
+
             // giải phóng tất cả vụ nổ
             explosionManager.Explosions.Clear();
             GC.Collect();
+
             // tạo danh sách tường
             wallManager.CreatWall(this.map, this.level);
+
             // khởi tạo danh sách địch
             enemyTankManager.Init_EnemyTankManagement(String.Format("{0}{1:00}.txt",
                 Common.path + @"\EnemyTankParameters\EnemyParameter", this.level));
+
             // hiển thị thông tin level hiện tại
             lblLevel.Text = String.Format("LEVEL {0}", this.level);
+
             // hiển thị số lượng xe tăng địch cần tiêu diệt bên bảng thông tin
             ShowNumberEnemyTankDestroy(enemyTankManager.NumberEnemyTank());
+
             // cập nhật vị trí xe tăng player
             playerTank.SetLocation();
+
             // cập nhật năng lượng xe tăng player 
             playerTank.Energy = 100;
+
             // cập nhật khiên bảo vệ
             playerTank.IsShield = false;
+
             // cập nhật loại đạn
             playerTank.BulletType = BulletType.eTriangleBullet;
+
             // cập nhật thông tin máu hiển thị của xe tăng player
             this.lblHpTankPlayer.Width = playerTank.Energy;
+
             // cập nhật thông tin máu hiển thị của thành
             this.lblCastleBlood.Width = 60;
+
             // cập nhật thông tin vật phẩm đang ăn
             this.picItem.Image = null;
             this.lblItemActive.Text = "";
+
             // load hình castle 
             bmpCastle = (Bitmap)Image.FromFile(Common.path + @"\Images\castle.png");
+
             // điểm và số lượng địch tiêu diệt được là 0
             this.scores = 0;
             this.killed = 0;
+
             // hủy hình ảnh item
             item.BmpObject = null;
             item.IsOn = false;
+
             // bật biến hoạt động của item về false
             isTimeItemActive = false;
+
             // bật các nút chức năng trên game 
             this.LabelEnableOn();
+
             // set thời gian item và chạy item
             timeItem = 50;
             timeItemActive = 15;
@@ -155,8 +188,10 @@ namespace SuperTank
             // hiển thị castle
             Common.PaintObject(this.background, bmpCastle,
                 420, 700, 0, 0, 60, 60);
+
             // vẽ và di chuyển đạn player
             playerTank.ShowBulletAndMove(this.background);
+
             //tạo và di chuyển đạn của địch
             foreach (EnemyTank enemyTank in enemyTankManager.EnemyTanks)
             {
@@ -166,6 +201,7 @@ namespace SuperTank
 
             //di chuyển toàn bộ xe tăng địch
             enemyTankManager.MoveAllEnemyTank(wallManager.Walls, playerTank);
+
             //hiển thị toàn bộ xe tăng địch
             enemyTankManager.ShowAllEnemyTank(this.background);
 
@@ -184,6 +220,7 @@ namespace SuperTank
                         {
                             // thêm vụ nổ vào danh sách
                             explosionManager.CreateExplosion(ExplosionSize.eSmallExplosion, playerTank.Bullets[j].Rect);
+
                             // viên đạn xe tăng player này bị hủy
                             playerTank.RemoveOneBullet(j);
                         }
@@ -235,14 +272,12 @@ namespace SuperTank
                             // hủy viên gạch đi khi nó là gạch có thể phá hủy
                             if (wallManager.Walls[i].WallNumber == 1)
                             {
-                                //Console.WriteLine("Địch bắn trúng tường có thể phá.");
                                 wallManager.RemoveOneWall(i);
                             }
                             else
                              // địch bắn trúng boss của player
                              if (wallManager.Walls[i].WallNumber == 6)
                             {
-                                //Console.WriteLine("địch bắn trúng boss player!");
                                 lblCastleBlood.Width -= 6;
                                 if (lblCastleBlood.Width == 0)
                                 {
@@ -273,20 +308,21 @@ namespace SuperTank
                     if (Common.IsCollision(enemyTankManager.EnemyTanks[i].Bullets[j].Rect, playerTank.Rect)
                         && playerTank.IsActivate)
                     {
-                        //Console.WriteLine("Địch bắn trúng ta");
-                        // phát âm thanh
                         Sound.PlayHitByBulletsSound();
                         // thêm vụ nổ vào danh sách
                         explosionManager.CreateExplosion(ExplosionSize.eBigExplosion, enemyTankManager.EnemyTanks[i].Bullets[j].Rect);
-                        // nếu xe tăng player không có vật phẩm khiêng chắn
+
+                        // nếu xe tăng player không có vật phẩm khiên chắn
                         if (!playerTank.IsShield)
                         {
                             // cập nhật lại thông tin vị trí cho xe tăng player
                             playerTank.SetLocation();
                             playerTank.IsActivate = false;
+
                             // cập nhật năng lượng của xe tăng player
                             playerTank.Energy -= enemyTankManager.EnemyTanks[i].Bullets[j].Power;
                             this.lblHpTankPlayer.Width = playerTank.Energy;
+
                             // xe tăng player hết năng lượng sẽ thua
                             if (playerTank.Energy == 0)
                             {
@@ -313,7 +349,6 @@ namespace SuperTank
                         // đạn của xe tăng địch va chạm đạn của xe tăng player
                         if (Common.IsCollision(enemyTankManager.EnemyTanks[i].Bullets[j].Rect, playerTank.Bullets[h].Rect))
                         {
-                            //Console.WriteLine("hai viên đạn trúng nhau");
                             enemyTankManager.EnemyTanks[i].RemoveOneBullet(j);
                             playerTank.RemoveOneBullet(h);
                         }
@@ -327,8 +362,6 @@ namespace SuperTank
                     if (Common.IsCollision(enemyTankManager.EnemyTanks[i].Rect, playerTank.Bullets[k].Rect) &&
                         enemyTankManager.EnemyTanks[i].IsActivate)
                     {
-                        //Console.WriteLine("Địch bị trúng đạn");
-
                         // thêm vụ nổ vào danh sách
                         explosionManager.CreateExplosion(ExplosionSize.eBigExplosion, playerTank.Bullets[k].Rect);
 
@@ -400,8 +433,10 @@ namespace SuperTank
 
             // hiển thị xe tăng của player
             playerTank.Show(this.background);
+
             // hiển thị tất cả tường lên background
             wallManager.ShowAllWall(this.background);
+
             //hiển thị vụ nổ
             explosionManager.ShowAllExplosion(this.background);
 
@@ -963,6 +998,16 @@ namespace SuperTank
         }
 
         private void pnMainGame_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void picItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHpTankPlayer_Click(object sender, EventArgs e)
         {
 
         }

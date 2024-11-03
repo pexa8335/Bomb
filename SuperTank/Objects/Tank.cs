@@ -250,10 +250,15 @@ Khi frx_tank giảm về -1, giá trị sẽ được đặt lại thành MAX_NU
         }
 
         // kiểm tra va chạm của xe tăng với một đối tượng
+        //code va chạm để nếu trả về true thì hai xe không đè được qua nhau
         public bool IsObjectCollision(Rectangle rectObj)
         {
             switch (this.directionTank)
             {
+                //Góc trái của vật thể (this) = góc phải của vật thể khác thì nếu
+                //1. Góc trên của vật thể (this) >= góc trên vật thể khác và góc trên của this bé hơn góc dưới của vật thể khác
+                //2,3 các case còn lại
+                //thì coi là va chạm -> không cho đi xuyên qua
                 case Direction.eLeft:
                     if (this.Rect.Left == rectObj.Right)
                         if (this.Rect.Top >= rectObj.Top && this.Rect.Top < rectObj.Bottom ||
@@ -298,7 +303,7 @@ Khi frx_tank giảm về -1, giá trị sẽ được đặt lại thành MAX_NU
         public bool IsWallCollision(List<Wall> walls, Direction directionTank)
         {
             foreach (Wall wall in walls)
-                // nếu không phải bụi cây thì xét va chạm (cây là wall loại 4 - image wall.4)
+                // nếu không phải bụi cây thì xét va chạm là true -> không vượt qua được (cây là wall loại 4 - image wall.4)
                 if (wall.WallNumber != 4)
                     if (IsObjectCollision(wall.Rect))
                         return true;

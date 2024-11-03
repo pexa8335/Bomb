@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\SuperTank\\SuperTank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\explosionmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\explosionmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|D:\\SuperTank\\SuperTank\\general\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\general\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:general\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\wallmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\wallmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\enemytank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\enemytank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\enemytankmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\enemytankmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\playertank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\playertank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:windowsforms\\frmgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|d:\\supertank\\supertank\\objects\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5BC8B-5D4B-4913-BD9B-C39295778F89}|SuperTank.csproj|solutionrelative:objects\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,60 +49,98 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExplosionManagement.cs",
-              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\ExplosionManagement.cs",
-              "RelativeDocumentMoniker": "Objects\\ExplosionManagement.cs",
-              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\ExplosionManagement.cs*",
-              "RelativeToolTip": "Objects\\ExplosionManagement.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAtAAAAAAAAAA==",
+              "Title": "frmGame.cs",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\frmGame.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs*",
+              "RelativeToolTip": "WindowsForms\\frmGame.cs*",
+              "ViewState": "AgIAAF4AAAAAAAAAAAArwGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:30:52.925Z",
+              "WhenOpened": "2024-11-03T10:19:55.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Explosion.cs",
-              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\Explosion.cs",
-              "RelativeDocumentMoniker": "Objects\\Explosion.cs",
-              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\Explosion.cs",
-              "RelativeToolTip": "Objects\\Explosion.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:42:19.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WallManagement.cs",
-              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\WallManagement.cs",
-              "RelativeDocumentMoniker": "Objects\\WallManagement.cs",
-              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\WallManagement.cs",
-              "RelativeToolTip": "Objects\\WallManagement.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwFkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:28:11.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Common.cs",
               "DocumentMoniker": "D:\\SuperTank\\SuperTank\\General\\Common.cs",
               "RelativeDocumentMoniker": "General\\Common.cs",
               "ToolTip": "D:\\SuperTank\\SuperTank\\General\\Common.cs",
               "RelativeToolTip": "General\\Common.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwDcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T09:17:57.433Z",
+              "WhenOpened": "2024-11-03T09:13:51.842Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmGame.cs [Design]",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\frmGame.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\WindowsForms\\frmGame.cs [Design]*",
+              "RelativeToolTip": "WindowsForms\\frmGame.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:19:51.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyTankManagement.cs",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\EnemyTankManagement.cs",
+              "RelativeDocumentMoniker": "Objects\\EnemyTankManagement.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\EnemyTankManagement.cs",
+              "RelativeToolTip": "Objects\\EnemyTankManagement.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAvwLIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:52:04.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tank.cs",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\Tank.cs",
+              "RelativeDocumentMoniker": "Objects\\Tank.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\Tank.cs",
+              "RelativeToolTip": "Objects\\Tank.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAvwC4BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:26:33.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyTank.cs",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\EnemyTank.cs",
+              "RelativeDocumentMoniker": "Objects\\EnemyTank.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\EnemyTank.cs",
+              "RelativeToolTip": "Objects\\EnemyTank.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:19:49.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerTank.cs",
+              "DocumentMoniker": "D:\\SuperTank\\SuperTank\\Objects\\PlayerTank.cs",
+              "RelativeDocumentMoniker": "Objects\\PlayerTank.cs",
+              "ToolTip": "D:\\SuperTank\\SuperTank\\Objects\\PlayerTank.cs",
+              "RelativeToolTip": "Objects\\PlayerTank.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:43:45.328Z",
+              "EditorCaption": ""
             }
           ]
         }
