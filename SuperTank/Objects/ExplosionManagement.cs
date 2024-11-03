@@ -11,21 +11,26 @@ namespace SuperTank.Objects
 {
     class ExplosionManagement
     {
+        //khởi tạo danh sách vụ nổ
         private List<Explosion> explosions;
 
+        //constructor
         public ExplosionManagement()
         {
+            //khởi tạo danh sách vụ nổ rỗng
             explosions = new List<Explosion>();
         }
 
         // tạo vụ nổ
         public void CreateExplosion(ExplosionSize explosionSize, Rectangle rectBullet)
         {
+            //tạo biến vụ nổ
             Explosion explosion;
-            explosion = new Explosion();
             //Tạo vụ nổ và phân loại vụ nổ nhỏ hay lớn
+            explosion = new Explosion();
 
 
+            //Tùy thuộc vào loại vụ nổ, chọn hình ảnh và kích thước
             switch (explosionSize)
             {
                 //Độ rộng và dài vụ nổ, thử tăng giảm lên 400 500 là hiểu

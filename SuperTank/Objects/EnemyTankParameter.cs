@@ -8,6 +8,7 @@ namespace SuperTank.Objects
 {
     class EnemyTankParameter
     {
+        // 0: normal, 1: fast, 2: strong
         public int Type { set; get; }
         public int Energy { set; get; }
         public int TankMoveSpeed { set; get; }

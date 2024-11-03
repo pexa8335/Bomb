@@ -12,18 +12,39 @@ namespace SuperTank.Objects
 {
     class PlayerTank : Tank
     {
+        // số lượng sprite của xe tăng
+        // sprite của xe tăng chạy từ 0 -> 3
+        // sprite lớn nhất là 3
+
+
+        // Số sprite trong ngữ cảnh lập trình game và đồ họa máy tính là
+        // số lượng các hình ảnh hoặc đối tượng đồ họa được sử dụng trong
+        // một khung cảnh hoặc trò chơi. Sprite là hình ảnh 2D đại diện cho
+        // một đối tượng trong trò chơi, chẳng hạn như nhân vật, vật phẩm,
+        // hiệu ứng hoặc các yếu tố khác trong môi trường. Các sprite thường
+        // được vẽ riêng lẻ và sau đó được kết hợp với nhau để tạo ra các khung
+        // cảnh phức tạp hơn hoặc để biểu diễn chuyển động và hoạt ảnh.
         private bool isShield;
+
+        // số sprite của xe tăng
         private Bitmap bmpShield;
 
-
+       
         public PlayerTank()
         {
+            // khởi tạo các thông số mặc định của xe tăng player
             this.moveSpeed = 10;
+            // tốc độ di chuyển của xe tăng player
             this.tankBulletSpeed = 20;
+            // tốc độ đạn của xe tăng player
             this.energy = 100;
+            // năng lượng của xe tăng player
             this.SetLocation();
+            // vị trí của xe tăng player
             this.DirectionTank = Direction.eUp;
+            // hướng di chuyển của xe tăng player (luôn hướng lên trên)
             this.SkinTank = Skin.eYellow;
+            // màu sắc của xe tăng player
             bmpEffect = new Bitmap(Common.path + @"\Images\effect1.png");
             bmpShield = new Bitmap(Common.path + @"\Images\shield.png");
         }
@@ -107,9 +128,12 @@ namespace SuperTank.Objects
         }
 
         #region properties
+        // getter, setter
         public bool IsShield
         {
+            // lấy loại vật phẩm
             get { return isShield; }
+            // thiết lập loại vật phẩm
             set { isShield = value; }
         }
         #endregion properties

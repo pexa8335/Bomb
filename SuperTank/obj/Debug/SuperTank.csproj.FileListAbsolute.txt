@@ -65,3 +65,14 @@ D:\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.GenerateResource.cache
 D:\SuperTank\SuperTank\obj\Debug\SuperTank.csproj.CoreCompileInputs.cache
 D:\SuperTank\SuperTank\obj\Debug\SuperTank.exe
 D:\SuperTank\SuperTank\obj\Debug\SuperTank.pdb
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\bin\Debug\SuperTank.exe.config
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\bin\Debug\SuperTank.exe
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\bin\Debug\SuperTank.pdb
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.csproj.AssemblyReference.cache
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.frmGame.resources
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.Properties.Resources.resources
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.WindowsForms.frmMenu.resources
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.csproj.GenerateResource.cache
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.csproj.CoreCompileInputs.cache
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.exe
+C:\Users\kwebl\Source\Repos\Bomberman\SuperTank\obj\Debug\SuperTank.pdb

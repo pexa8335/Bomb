@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace SuperTank.General
 {
+    // các enum dùng để phân loại các đối tượng trong game
+    // enum là một kiểu dữ liệu đặc biệt trong C# giúp ta khai báo một tập hợp các hằng số
     public enum Direction
-    {
+    { 
         eLeft, eRight, eUp, eDown
     }
     public enum BulletType
